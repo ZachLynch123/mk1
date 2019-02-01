@@ -2,10 +2,11 @@
     height: 4em;
 }
 
-.container-fluid {
+#heading {
     height: 60vh;
     max-width: 100vw;
-    background: url("https://static.seattletimes.com/wp-content/uploads/2018/10/10292018_case-shiller_131149-780x522.jpg") no-repeat;
+    background: url("https://www.trbimg.com/img-579a57f7/turbine/ct-us-homeownership-rate-20160728") no-repeat;
+    background-attachment: fixed;
     background-position: center;
     background-size: contain;
     background-size: cover;
