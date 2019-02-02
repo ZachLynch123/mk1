@@ -91,6 +91,11 @@ hr {
     padding: 4% 10%;
 }
 
+#vms {
+    height: 244px;
+    width: 400px;
+}
+
 #testimonials {
     padding: 4%;
     margin: 0 auto;
@@ -123,6 +128,39 @@ hr {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px){
+    
+    #heading {
+        height: 80vh;
+        background-position: 32% 50%;
+    }
 
+    #title {
+        text-align: center;
+    }
+
+    #text {
+        text-align: center;
+    }
+
+    #order-button-column {
+        text-align: center!important;
+    }
+
+    #vms {
+        height: 184px;
+        width: 320px;
+    }
+
+    #phone {
+        text-align: center;
+    }
+
+    #form-prompt {
+        padding-top: 10%;
+    }
+
+    #address {
+        display: none;
+    }
 }
