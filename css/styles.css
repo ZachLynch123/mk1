@@ -2,6 +2,7 @@
     height: 4em;
 }
 
+
 #heading {
     height: 60vh;
     max-width: 100vw;
@@ -11,6 +12,10 @@
     background-size: contain;
     background-size: cover;
     filter: brightness(.5);
+}
+
+#about-img {
+    width: 100%;
 }
 
 #intigration {
