@@ -1,4 +1,7 @@
-body {
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     color: #000;
 }
 
@@ -15,7 +18,7 @@ body {
 }
 
 #even-line {
-    line-height: 2em;
+    line-height: 1em;
 }
 
 #USP-call-to-action{
@@ -28,7 +31,7 @@ body {
 }
 
 #pink {
-    color: #82095c;
+    color: #82095c!important;
 }
 
 #pink-products {
@@ -89,6 +92,7 @@ hr {
 }
 
 #testimonials {
+    padding: 4%;
     margin: 0 auto;
 }
 
@@ -98,4 +102,27 @@ hr {
     height: 10px;
     background-color: #82095c!important;
     margin-bottom: -30px;
+}
+
+#footer {
+    margin-top: 4em;
+    padding: 4%;
+    padding-top: 0;
+    background-color: #4848488a;
+}
+
+#spacing {
+    padding-bottom: 5%;
+}
+
+#stick {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+@media only screen and (min-width: 768px) {
+
 }
