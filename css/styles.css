@@ -12,3 +12,9 @@
     background-size: cover;
     filter: brightness(.5);
 }
+
+#intigration {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://static.seattletimes.com/wp-content/uploads/2018/10/10292018_case-shiller_131149-780x522.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
