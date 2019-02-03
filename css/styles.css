@@ -136,12 +136,20 @@ hr {
         background-position: 32% 50%;
     }
 
+    #top-button {
+        margin-top: -17px;
+    }
+
     #title {
         text-align: center;
     }
 
+    .display-4 {
+        font-size: 3rem;
+    }
+
     #text {
-        text-align: center;
+        text-align: center!important;
     }
 
     #order-button-column {
